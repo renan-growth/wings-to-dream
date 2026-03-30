@@ -1,4 +1,5 @@
 import { Instagram, Facebook, Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -7,9 +8,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="font-heading text-xl font-bold text-primary-foreground mb-4">
-              ✈ Asas Pelo Mundo
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="Asas Pelo Mundo" className="h-14 w-14 rounded-full object-cover" />
+              <h3 className="font-heading text-xl font-bold text-primary-foreground">
+                Asas Pelo Mundo
+              </h3>
+            </div>
             <p className="font-body text-primary-foreground/70 text-sm mb-4">
               Transformando sonhos em viagens inesquecíveis com consultoria de milhas e roteiros personalizados.
             </p>
@@ -60,7 +64,8 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-accent mt-1 flex-shrink-0" />
                 <p className="font-body text-sm text-primary-foreground/60">
-                  R. Tibério Justos da Silva, 475, sala 02, Jardim Florida – São Roque, SP
+                  R. Professor Tibério Justo da Silva, 475, Sala 02<br />
+                  Jardim Florida – São Roque/SP · CEP 18.133-000
                 </p>
               </div>
               <div className="flex items-center gap-3">
@@ -82,9 +87,14 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-primary-foreground/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="font-body text-xs text-primary-foreground/40">
-              CNPJ: 13.953.006/0001-25 · Asas Pelo Mundo Agência de Viagens
-            </p>
+            <div className="text-center md:text-left">
+              <p className="font-body text-xs text-primary-foreground/40">
+                Francine Aparecida Carrillo · CNPJ: 13.953.006/0001-25
+              </p>
+              <p className="font-body text-xs text-primary-foreground/40">
+                Asas Pelo Mundo · Agência de Viagens · CNAE 79.11-2-00
+              </p>
+            </div>
             <p className="font-body text-xs text-primary-foreground/40">
               © {new Date().getFullYear()} Asas Pelo Mundo. Todos os direitos reservados.
             </p>
