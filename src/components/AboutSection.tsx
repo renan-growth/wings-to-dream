@@ -9,7 +9,7 @@ const features = [
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="py-20 md:py-28 section-light">
+    <section id="sobre" className="py-20 md:py-28 bg-primary">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
