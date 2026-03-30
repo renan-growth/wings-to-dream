@@ -23,10 +23,10 @@ const ServicesSection = () => {
           <p className="font-heading text-accent font-semibold text-sm uppercase tracking-wider mb-2">
             Cada destino conta uma história
           </p>
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
             Nossos Serviços
           </h2>
-          <p className="font-body text-muted-foreground text-lg">
+          <p className="font-body text-primary-foreground/70 text-lg">
             Da emissão com milhas aos roteiros mais exclusivos, oferecemos soluções completas para tornar sua viagem perfeita.
           </p>
         </motion.div>
