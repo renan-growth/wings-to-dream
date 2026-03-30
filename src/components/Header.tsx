@@ -20,8 +20,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
         <a href="#home" className="flex items-center gap-2">
+          <img src={logo} alt="Asas Pelo Mundo" className="h-12 w-12 rounded-full object-cover" />
           <span className="font-heading text-xl font-bold text-primary-foreground">
-            ✈ Asas Pelo Mundo
+            Asas Pelo Mundo
           </span>
         </a>
 
