@@ -18,10 +18,10 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
             Sobre a Asas Pelo Mundo
           </h2>
-          <p className="font-body text-muted-foreground text-lg">
+          <p className="font-body text-primary-foreground/70 text-lg">
             Agência especializada em transformar sonhos de viagem em experiências reais com soluções estratégicas e acesso a milhas exclusivas. Fundada por Fran Carrillo, com mais de 5 milhões de milhas acumuladas.
           </p>
         </motion.div>
