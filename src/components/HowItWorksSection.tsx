@@ -36,13 +36,13 @@ const HowItWorksSection = () => {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="text-center relative"
             >
-              <div className="w-16 h-16 rounded-full bg-accent/15 flex items-center justify-center mx-auto mb-5 relative">
+              <div className="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-5 relative">
                 <step.icon className="text-accent" size={28} />
                 <span className="absolute -top-1 -right-1 w-6 h-6 bg-gold rounded-full flex items-center justify-center font-heading text-xs font-bold text-gold-foreground">
                   {i + 1}
                 </span>
               </div>
-              <h3 className="font-heading text-lg font-semibold text-primary mb-2">{step.title}</h3>
+              <h3 className="font-heading text-lg font-semibold text-primary-foreground mb-2">{step.title}</h3>
               <p className="font-body text-muted-foreground text-sm">{step.desc}</p>
             </motion.div>
           ))}
