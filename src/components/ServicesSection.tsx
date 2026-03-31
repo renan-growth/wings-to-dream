@@ -12,7 +12,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="servicos" className="py-20 md:py-28">
+    <section id="servicos" className="py-20 md:py-28 bg-primary/90">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -23,10 +23,10 @@ const ServicesSection = () => {
           <p className="font-heading text-accent font-semibold text-sm uppercase tracking-wider mb-2">
             Cada destino conta uma história
           </p>
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
             Nossos Serviços
           </h2>
-          <p className="font-body text-muted-foreground text-lg">
+          <p className="font-body text-primary-foreground/70 text-lg">
             Da emissão com milhas aos roteiros mais exclusivos, oferecemos soluções completas para tornar sua viagem perfeita.
           </p>
         </motion.div>
@@ -39,13 +39,13 @@ const ServicesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group bg-card border border-border rounded-xl p-8 hover:shadow-lg hover:border-accent/30 transition-all duration-300"
+              className="group glass rounded-xl p-8 hover:shadow-lg hover:border-accent/30 transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-lg bg-accent/10 group-hover:bg-accent/20 flex items-center justify-center mb-5 transition-colors">
+              <div className="w-12 h-12 rounded-lg bg-accent/20 group-hover:bg-accent/30 flex items-center justify-center mb-5 transition-colors">
                 <service.icon className="text-accent" size={24} />
               </div>
-              <h3 className="font-heading text-lg font-semibold text-primary mb-2">{service.title}</h3>
-              <p className="font-body text-muted-foreground text-sm">{service.desc}</p>
+              <h3 className="font-heading text-lg font-semibold text-primary-foreground mb-2">{service.title}</h3>
+              <p className="font-body text-primary-foreground/60 text-sm">{service.desc}</p>
             </motion.div>
           ))}
         </div>
