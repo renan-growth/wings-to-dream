@@ -18,10 +18,10 @@ const HowItWorksSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
             Como Funciona
           </h2>
-          <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="font-body text-primary-foreground/70 text-lg max-w-2xl mx-auto">
             Em quatro passos simples, transformamos sua vontade de viajar em realidade.
           </p>
         </motion.div>
