@@ -39,13 +39,13 @@ const ServicesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group bg-card border border-border rounded-xl p-8 hover:shadow-lg hover:border-accent/30 transition-all duration-300"
+              className="group glass rounded-xl p-8 hover:shadow-lg hover:border-accent/30 transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-lg bg-accent/10 group-hover:bg-accent/20 flex items-center justify-center mb-5 transition-colors">
+              <div className="w-12 h-12 rounded-lg bg-accent/20 group-hover:bg-accent/30 flex items-center justify-center mb-5 transition-colors">
                 <service.icon className="text-accent" size={24} />
               </div>
-              <h3 className="font-heading text-lg font-semibold text-primary mb-2">{service.title}</h3>
-              <p className="font-body text-muted-foreground text-sm">{service.desc}</p>
+              <h3 className="font-heading text-lg font-semibold text-primary-foreground mb-2">{service.title}</h3>
+              <p className="font-body text-primary-foreground/60 text-sm">{service.desc}</p>
             </motion.div>
           ))}
         </div>

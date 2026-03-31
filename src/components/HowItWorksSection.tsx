@@ -43,7 +43,7 @@ const HowItWorksSection = () => {
                 </span>
               </div>
               <h3 className="font-heading text-lg font-semibold text-primary-foreground mb-2">{step.title}</h3>
-              <p className="font-body text-muted-foreground text-sm">{step.desc}</p>
+              <p className="font-body text-primary-foreground/60 text-sm">{step.desc}</p>
             </motion.div>
           ))}
         </div>

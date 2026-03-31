@@ -34,13 +34,13 @@ const AboutSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="bg-card rounded-xl p-8 text-center shadow-sm hover:shadow-md transition-shadow"
+              className="glass rounded-xl p-8 text-center hover:shadow-md transition-shadow"
             >
-              <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-5">
+              <div className="w-14 h-14 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-5">
                 <feature.icon className="text-accent" size={28} />
               </div>
-              <h3 className="font-heading text-xl font-semibold text-primary mb-3">{feature.title}</h3>
-              <p className="font-body text-muted-foreground">{feature.desc}</p>
+              <h3 className="font-heading text-xl font-semibold text-primary-foreground mb-3">{feature.title}</h3>
+              <p className="font-body text-primary-foreground/60">{feature.desc}</p>
             </motion.div>
           ))}
         </div>
