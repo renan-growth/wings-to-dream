@@ -10,7 +10,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section id="como-funciona" className="py-20 md:py-28 bg-[hsl(192,35%,25%)]">
+    <section id="como-funciona" className="py-20 md:py-28 bg-[hsl(192,30%,30%)]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
