@@ -7,35 +7,35 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 207 78% 21%;
+    --foreground: 192 45% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 207 78% 21%;
+    --card-foreground: 192 45% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 207 78% 21%;
+    --popover-foreground: 192 45% 25%;
 
-    --primary: 207 78% 21%;
+    --primary: 192 35% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 207 78% 21%;
+    --secondary: 190 20% 95%;
+    --secondary-foreground: 192 45% 25%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 210 10% 45%;
+    --muted: 190 15% 95%;
+    --muted-foreground: 192 15% 45%;
 
-    --accent: 176 62% 50%;
-    --accent-foreground: 207 78% 21%;
+    --accent: 185 45% 55%;
+    --accent-foreground: 192 45% 20%;
 
-    --gold: 40 95% 56%;
-    --gold-foreground: 207 78% 21%;
+    --gold: 42 90% 55%;
+    --gold-foreground: 192 45% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 176 62% 50%;
+    --border: 190 20% 88%;
+    --input: 190 20% 88%;
+    --ring: 192 35% 45%;
 
     --radius: 0.75rem;
 
@@ -44,12 +44,12 @@
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 192 35% 45%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 190 20% 95%;
+    --sidebar-accent-foreground: 192 45% 25%;
+    --sidebar-border: 190 15% 90%;
+    --sidebar-ring: 192 35% 45%;
   }
 }
 
@@ -76,9 +76,9 @@
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      hsla(207, 78%, 12%, 0.85) 0%,
-      hsla(207, 78%, 18%, 0.7) 50%,
-      hsla(207, 78%, 12%, 0.85) 100%
+      hsla(192, 35%, 30%, 0.85) 0%,
+      hsla(192, 35%, 40%, 0.7) 50%,
+      hsla(192, 35%, 30%, 0.85) 100%
     );
   }
 
