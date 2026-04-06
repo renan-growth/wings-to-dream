@@ -1,19 +1,14 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
+import { MessageCircle } from "lucide-react";
 import contactBg from "@/assets/contact-bg.jpg";
 
-const ContactSection = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
+const WHATSAPP_NUMBER = "5511924287118";
+const WHATSAPP_MESSAGE = encodeURIComponent("Olá! Gostaria de saber mais sobre os serviços da Asas pelo Mundo. ✈️");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({ title: "Mensagem enviada!", description: "Entraremos em contato em breve." });
-    setFormData({ name: "", email: "", phone: "", message: "" });
+const ContactSection = () => {
+  const handleWhatsApp = () => {
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`, "_blank");
   };
 
   return (
@@ -33,61 +28,22 @@ const ContactSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center max-w-xl mx-auto"
         >
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
             Pronto para Viajar?
           </h2>
-          <p className="font-body text-primary-foreground/80 text-lg">
-            Comece sua aventura aqui. Preencha o formulário e entraremos em contato.
+          <p className="font-body text-primary-foreground/80 text-lg mb-8">
+            Fale diretamente conosco pelo WhatsApp e comece a planejar sua próxima aventura.
           </p>
-        </motion.div>
-
-        <motion.form
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
-          onSubmit={handleSubmit}
-          className="max-w-lg mx-auto glass rounded-2xl p-8 space-y-4"
-        >
-          <Input
-            placeholder="Seu nome"
-            value={formData.name}
-            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-            required
-            className="bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 font-body"
-          />
-          <Input
-            type="email"
-            placeholder="Seu e-mail"
-            value={formData.email}
-            onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-            required
-            className="bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 font-body"
-          />
-          <Input
-            type="tel"
-            placeholder="Seu telefone"
-            value={formData.phone}
-            onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            className="bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 font-body"
-          />
-          <Textarea
-            placeholder="Sua mensagem"
-            value={formData.message}
-            onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            required
-            rows={4}
-            className="bg-white/10 border-white/20 text-primary-foreground placeholder:text-primary-foreground/50 font-body resize-none"
-          />
           <Button
-            type="submit"
-            className="w-full bg-gold hover:bg-gold/90 text-gold-foreground font-heading font-semibold rounded-full py-6 text-lg transition-all hover:scale-[1.02]"
+            onClick={handleWhatsApp}
+            className="bg-[#25D366] hover:bg-[#1ebe5a] text-white font-heading font-semibold rounded-full py-6 px-10 text-lg transition-all hover:scale-[1.02] inline-flex items-center gap-3"
           >
-            Quero Viajar! ✈
+            <MessageCircle size={24} />
+            Falar pelo WhatsApp
           </Button>
-        </motion.form>
+        </motion.div>
       </div>
     </section>
   );
