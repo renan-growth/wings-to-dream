@@ -15,7 +15,7 @@ const Footer = () => {
               </h3>
             </div>
             <p className="font-body text-primary-foreground/70 text-sm mb-4">
-              Transformando sonhos em viagens inesquecíveis com consultoria de milhas e roteiros personalizados.
+              Transformando sonhos em viagens inesquecíveis com 
             </p>
             <div className="flex gap-3">
               <a
