@@ -37,7 +37,7 @@ const FounderSection = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white rounded-xl px-5 py-3 flex items-center gap-3 shadow-lg">
+            <a href="https://www.instagram.com/francarrillooficial?igsh=MTZoZnMyeXJ4cnJ5Zw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white rounded-xl px-5 py-3 flex items-center gap-3 shadow-lg hover:scale-105 transition-transform">
               <div className="w-9 h-9 rounded-full bg-destructive/10 flex items-center justify-center">
                 <Star className="text-destructive" size={18} fill="currentColor" />
               </div>
@@ -45,7 +45,7 @@ const FounderSection = () => {
                 <p className="font-heading text-sm font-semibold text-foreground">Especialista em Milhas</p>
                 <p className="font-body text-xs text-muted-foreground">5M+ acumuladas</p>
               </div>
-            </div>
+            </a>
           </motion.div>
 
           <motion.div
