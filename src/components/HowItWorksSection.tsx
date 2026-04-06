@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Search, MessageCircle, Award, Heart } from "lucide-react";
+import { ScanSearch, MessagesSquare, Trophy, Sparkle } from "lucide-react";
 
 const steps = [
-  { icon: Search, title: "Descubra seu destino", desc: "Conte-nos para onde deseja ir e suas preferências." },
-  { icon: MessageCircle, title: "Consultoria personalizada", desc: "Nossa equipe cria o plano perfeito para você." },
-  { icon: Award, title: "Uso otimizado de milhas", desc: "Maximizamos suas milhas para maior economia." },
-  { icon: Heart, title: "Viva sua viagem!", desc: "Aproveite cada momento com total tranquilidade." },
+  { icon: ScanSearch, title: "Descubra seu destino", desc: "Conte-nos para onde deseja ir e suas preferências." },
+  { icon: MessagesSquare, title: "Consultoria personalizada", desc: "Nossa equipe cria o plano perfeito para você." },
+  { icon: Trophy, title: "Uso otimizado de milhas", desc: "Maximizamos suas milhas para maior economia." },
+  { icon: Sparkle, title: "Viva sua viagem!", desc: "Aproveite cada momento com total tranquilidade." },
 ];
 
 const HowItWorksSection = () => {
