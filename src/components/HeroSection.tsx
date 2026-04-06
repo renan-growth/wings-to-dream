@@ -15,14 +15,6 @@ const HeroSection = () => {
       <div className="absolute inset-0 hero-overlay" />
 
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="font-body text-accent text-lg mb-4 italic"
-        >
-          A vida é curta demais para não voar alto.
-        </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
