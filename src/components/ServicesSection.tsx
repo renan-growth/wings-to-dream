@@ -6,7 +6,7 @@ const services = [
   { icon: MapPinned, title: "Planejamento de Roteiros", desc: "Roteiros personalizados com base no seu perfil." },
   { icon: CheckCircle2, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
   { icon: PlaneTakeoff, title: "Passagens Aéreas", desc: "Emissão inteligente buscando melhores oportunidades e promoções exclusivas.." },
-  { icon: BedDouble, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações." },
+  { icon: BedDouble, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações e de acordo com o pefil de cada cliente." },
   { icon: Route, title: "Experiências Exclusivas", desc: "Cruzeiros, tours e experiências inesquecíveis." },
 ];
 
