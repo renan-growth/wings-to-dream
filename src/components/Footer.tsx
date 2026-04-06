@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://www.instagram.com/frann_carrillo"
+                href="https://www.instagram.com/voeasaspelomundo?igsh=ZXk1OTBoMHZwem5y&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center text-accent hover:bg-accent/30 transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Instagram size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/1CSKGyJwkY/?mibextid=wwXIfr"
                 className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center text-accent hover:bg-accent/30 transition-colors"
                 aria-label="Facebook"
               >
