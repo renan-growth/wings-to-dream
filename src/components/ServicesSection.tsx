@@ -5,7 +5,7 @@ const services = [
   { icon: Globe, title: "Gestão de Milhas", desc: "Otimize suas milhas e viaje com máxima economia." },
   { icon: MapPinned, title: "Planejamento de Roteiros", desc: "Roteiros personalizados com base no seu perfil." },
   { icon: CheckCircle2, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
-  { icon: PlaneTakeoff, title: "Passagens Aéreas", desc: "Emissão inteligente com milhas ou promoções exclusivas." },
+  { icon: PlaneTakeoff, title: "Passagens Aéreas", desc: "Emissão inteligente buscando melhores oportunidades e promoções exclusivas.." },
   { icon: BedDouble, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações." },
   { icon: Route, title: "Experiências Exclusivas", desc: "Cruzeiros, tours e experiências inesquecíveis." },
 ];
