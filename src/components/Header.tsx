@@ -39,7 +39,7 @@ const Header = () => {
           ))}
         </nav>
 
-        <a href="#contato" className="hidden md:block">
+        <a href="https://wa.me/551124287118" target="_blank" rel="noopener noreferrer" className="hidden md:block">
           <Button className="bg-gold hover:bg-gold/90 text-gold-foreground font-heading font-semibold rounded-full px-6">
             Solicite seu Orçamento
           </Button>
@@ -75,7 +75,7 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <a href="#contato" onClick={() => setIsOpen(false)}>
+              <a href="https://wa.me/551124287118" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                 <Button className="bg-gold hover:bg-gold/90 text-gold-foreground font-heading font-semibold rounded-full w-full mt-2">
                   Solicite seu Orçamento
                 </Button>
