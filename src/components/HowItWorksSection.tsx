@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { ScanSearch, MessagesSquare, Trophy, Sparkle } from "lucide-react";
 
 const steps = [
-  { icon: ScanSearch, title: "Descubra seu destino", desc: "Conte-nos para onde deseja ir e suas preferências." },
-  { icon: MessagesSquare, title: "Consultoria personalizada", desc: "Nossa equipe cria o plano perfeito para você." },
-  { icon: Trophy, title: "Uso otimizado de milhas", desc: "Maximizamos suas milhas para maior economia." },
-  { icon: Sparkle, title: "Viva sua viagem!", desc: "Aproveite cada momento com total tranquilidade." },
+  { icon: ScanSearch, title: "Conte-nos o que você procura", desc: "Informe seu destino, datas e preferências para iniciarmos seu planejamento." },
+  { icon: MessagesSquare, title: "Criamos sua viagem sob medida", desc: "Montamos uma proposta personalizada de acordo com o seu perfil e objetivos." },
+  { icon: Trophy, title: "Ajustamos cada detalhe", desc: "Refinamos a melhor opção para que sua viagem fique alinhada ao que você realmente deseja." },
+  { icon: Sparkle, title: "Você viaja com tranquilidade", desc: "Cuidamos de cada etapa para que sua experiência seja leve, segura e inesquecível." },
 ];
 
 const HowItWorksSection = () => {
