@@ -22,7 +22,7 @@ const AboutSection = () => {
             Sobre a Asas Pelo Mundo
           </h2>
           <p className="font-body text-primary-foreground/70 text-lg">
-            Agência especializada em transformar sonhos de viagem em experiências reais com soluções estratégicas e acesso a milhas exclusivas. Fundada por Fran Carrillo, com mais de 5 milhões de milhas acumuladas.
+            Agência especializada em transformar sonhos de viagem em experiências reais com soluções estratégica. Fundada por Fran Carrillo, com mais de 300 clientes satisfeitos.
           </p>
         </motion.div>
 
