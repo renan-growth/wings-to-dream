@@ -34,7 +34,7 @@ const ContactSection = () => {
             Pronto para Viajar?
           </h2>
           <p className="font-body text-primary-foreground/80 text-lg mb-8">
-            Fale diretamente conosco pelo WhatsApp e comece a planejar sua próxima aventura.
+            Comece a sua aventura aqui! Vamos planejar sua viagem, Clique no botão abaixo e entraremos em contato.
           </p>
           <Button
             onClick={handleWhatsApp}
