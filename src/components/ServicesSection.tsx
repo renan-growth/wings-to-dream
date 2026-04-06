@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Globe, PlaneTakeoff, CheckCircle2, MapPinned, BedDouble, Route } from "lucide-react";
 
 const services = [
-  { icon: Gem, title: "Gestão de Milhas", desc: "Otimize suas milhas e viaje com máxima economia." },
+  { icon: Globe, title: "Gestão de Milhas", desc: "Otimize suas milhas e viaje com máxima economia." },
   { icon: MapPinned, title: "Planejamento de Roteiros", desc: "Roteiros personalizados com base no seu perfil." },
-  { icon: HeadsetIcon, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
+  { icon: CheckCircle2, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
   { icon: PlaneTakeoff, title: "Passagens Aéreas", desc: "Emissão inteligente com milhas ou promoções exclusivas." },
   { icon: BedDouble, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações." },
   { icon: Route, title: "Experiências Exclusivas", desc: "Cruzeiros, tours e experiências inesquecíveis." },
