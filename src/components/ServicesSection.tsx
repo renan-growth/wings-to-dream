@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Globe, PlaneTakeoff, CheckCircle2, MapPinned, BedDouble, Route } from "lucide-react";
 
 const services = [
-  { icon: Globe, title: "Cruzeiros", desc: "Roteiros marítimos cuidadosamente selecionados para experiências únicas em alto mar." },
+  { icon: Globe, title: "Cruzeiros", desc: "Viva dias inesquecíveis em alto-mar com um cruzeiro planejado especialmente para o seu perfil." },
   { icon: MapPinned, title: "Planejamento de Roteiros", desc: "Roteiros personalizados com base no seu perfil." },
   { icon: CheckCircle2, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
   { icon: PlaneTakeoff, title: "Passagens Aéreas", desc: "Emissão inteligente buscando melhores oportunidades e promoções exclusivas.." },
   { icon: BedDouble, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações e de acordo com o pefil de cada cliente." },
-  { icon: Route, title: "Experiências Exclusivas", desc: "Cruzeiros, tours e experiências inesquecíveis." },
+  { icon: Route, title: "Experiências Exclusivas", desc: "​Sua viagem, do seu jeito, com experiências exclusivas e atendimento totalmente personalizado" },
 ];
 
 const ServicesSection = () => {
