@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Plane, Map, Users, Hotel, Sparkles, Compass } from "lucide-react";
+import { Gem, MapPinned, HeadsetIcon, PlaneTakeoff, BedDouble, Route } from "lucide-react";
 
 const services = [
-  { icon: Sparkles, title: "Gestão de Milhas", desc: "Otimize suas milhas e viaje com máxima economia." },
-  { icon: Map, title: "Planejamento de Roteiros", desc: "Roteiros personalizados com base no seu perfil." },
-  { icon: Users, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
-  { icon: Plane, title: "Passagens Aéreas", desc: "Emissão inteligente com milhas ou promoções exclusivas." },
-  { icon: Hotel, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações." },
-  { icon: Compass, title: "Experiências Exclusivas", desc: "Cruzeiros, tours e experiências inesquecíveis." },
+  { icon: Gem, title: "Gestão de Milhas", desc: "Otimize suas milhas e viaje com máxima economia." },
+  { icon: MapPinned, title: "Planejamento de Roteiros", desc: "Roteiros personalizados com base no seu perfil." },
+  { icon: HeadsetIcon, title: "Consultoria Personalizada", desc: "Atendimento dedicado para cada detalhe da sua viagem." },
+  { icon: PlaneTakeoff, title: "Passagens Aéreas", desc: "Emissão inteligente com milhas ou promoções exclusivas." },
+  { icon: BedDouble, title: "Hospedagem", desc: "Acomodações selecionadas nas melhores localizações." },
+  { icon: Route, title: "Experiências Exclusivas", desc: "Cruzeiros, tours e experiências inesquecíveis." },
 ];
 
 const ServicesSection = () => {
