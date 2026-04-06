@@ -54,11 +54,6 @@ const HeroSection = () => {
               Planeje Sua Viagem
             </Button>
           </a>
-          <a href="#servicos">
-            <Button variant="outline" className="border-accent text-accent hover:bg-accent/10 font-heading font-semibold rounded-full px-8 py-6 text-lg transition-all hover:scale-105">
-              Consulte Milhas Agora
-            </Button>
-          </a>
         </motion.div>
 
         {/* Stats */}
