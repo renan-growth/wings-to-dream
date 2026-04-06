@@ -9,7 +9,7 @@ const features = [
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="py-20 md:py-28 bg-primary">
+    <section id="sobre" className="py-20 md:py-28" style={{ backgroundColor: 'hsl(192, 35%, 32%)' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
