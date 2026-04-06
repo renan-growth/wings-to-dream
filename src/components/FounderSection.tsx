@@ -66,7 +66,7 @@ const FounderSection = () => {
             </p>
 
             <p className="font-body text-primary-foreground/80 leading-relaxed">
-              Desde 2020, se dedica a ensinar e aplicar na prática o poder das milhas, ajudando seus clientes a viajarem mais, com mais conforto e economia.
+              Desde 2020, se dedica a ensinar e aplicar na prática o poder das milhas, ajudando seus clientes a viajarem mais, com conforto e economia.
             </p>
 
             <p className="font-body text-primary-foreground/80 leading-relaxed">
@@ -75,7 +75,7 @@ const FounderSection = () => {
 
             <blockquote className="border-l-4 border-accent bg-accent/10 rounded-r-xl p-5 mt-6">
               <p className="font-body italic text-primary-foreground/90 leading-relaxed">
-                "Cada viagem é uma oportunidade de criar memórias inesquecíveis. Minha missão é tornar esses sonhos acessíveis através da inteligência das milhas."
+                "Cada viagem é uma oportunidade de criar memórias inesquecíveis. Minha missão é tornar esses sonhos acessíveis através da inteligência e estrategias direcionadas para cada cliente."
               </p>
               <footer className="font-heading font-semibold text-primary-foreground mt-3 text-sm">
                 — Fran Carrillo
