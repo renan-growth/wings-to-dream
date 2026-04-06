@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Earth, SendHorizonal, ShieldHalf } from "lucide-react";
+import { Globe, Plane, CheckCircle2 } from "lucide-react";
 
 const features = [
-  { icon: Earth, title: "Destinos Globais", desc: "Roteiros para os melhores destinos ao redor do mundo." },
-  { icon: SendHorizonal, title: "Atendimento Personalizado", desc: "Cada viagem é planejada de acordo com seu perfil e desejos." },
-  { icon: ShieldHalf, title: "Confiança & Segurança", desc: "Sua viagem dos sonhos com suporte completo do início ao fim." },
+  { icon: Globe, title: "Destinos Globais", desc: "Roteiros para os melhores destinos ao redor do mundo." },
+  { icon: Plane, title: "Atendimento Personalizado", desc: "Cada viagem é planejada de acordo com seu perfil e desejos." },
+  { icon: CheckCircle2, title: "Confiança & Segurança", desc: "Sua viagem dos sonhos com suporte completo do início ao fim." },
 ];
 
 const AboutSection = () => {
