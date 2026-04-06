@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         heading: ['Poppins', 'sans-serif'],
-        body: ['Lora', 'serif'],
+        body: ['Poppins', 'sans-serif'],
       },
       fontSize: {
         'hero': ['3rem', { lineHeight: '1.1', fontWeight: '700' }],
