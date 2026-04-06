@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Gem, MapPinned, HeadsetIcon, PlaneTakeoff, BedDouble, Route } from "lucide-react";
+import { Globe, PlaneTakeoff, CheckCircle2, MapPinned, BedDouble, Route } from "lucide-react";
 
 const services = [
   { icon: Gem, title: "Gestão de Milhas", desc: "Otimize suas milhas e viaje com máxima economia." },
