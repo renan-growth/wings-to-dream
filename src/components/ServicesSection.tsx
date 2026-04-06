@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Globe, PlaneTakeoff, CheckCircle2, MapPinned, BedDouble, Route } from "lucide-react";
+import { Sparkles, PlaneTakeoff, Users, Map, Home, Compass } from "lucide-react";
 
 const services = [
   { icon: Globe, title: "Cruzeiros", desc: "Viva dias inesquecíveis em alto-mar com um cruzeiro planejado especialmente para o seu perfil." },
