@@ -41,7 +41,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.45 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <a href="#contato">
+          <a href="https://wa.me/551124287118" target="_blank" rel="noopener noreferrer">
             <Button className="bg-gold hover:bg-gold/90 text-gold-foreground font-heading font-semibold rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105">
               Planeje Sua Viagem
             </Button>
