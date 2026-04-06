@@ -15,7 +15,7 @@ const Footer = () => {
               </h3>
             </div>
             <p className="font-body text-primary-foreground/70 text-sm mb-4">
-              Transformando sonhos em viagens inesquecíveis com 
+              Transformando sonhos em viagens inesquecíveis, com excelência, exclusividade e atenção a cada detalhe.
             </p>
             <div className="flex gap-3">
               <a
