@@ -40,7 +40,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="font-body text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          Viagens personalizadas, roteiros estratégicos e consultoria especializada em milhas.
+          Aéreos, Hospedagens, Ingressos, Viagens personalizadas e Roteiros estratégicos.
         </motion.p>
 
         <motion.div
