@@ -64,7 +64,7 @@ const HeroSection = () => {
           className="mt-16 flex justify-center gap-8 md:gap-16"
         >
           {[
-            { value: "5M+", label: "Milhas Acumuladas" },
+            { value: "300+ ", label: "Clientes satisfeitos" },
             { value: "2024", label: "Fundação" },
             { value: "100%", label: "Personalizado" },
           ].map((stat) => (
