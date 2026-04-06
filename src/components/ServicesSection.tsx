@@ -12,7 +12,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="servicos" className="py-20 md:py-28 bg-[hsl(207,55%,15%)]">
+    <section id="servicos" className="py-20 md:py-28 bg-[hsl(192,35%,25%)]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
