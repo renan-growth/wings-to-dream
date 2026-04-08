@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <section id="depoimentos" className="py-20 md:py-28 bg-[hsl(215,28%,13%)]">
+    <section id="depoimentos" className="py-20 md:py-28 <section id="depoimentos" className="py-20 md:py-28 bg-[hsl(205,70%,18%)]">">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
