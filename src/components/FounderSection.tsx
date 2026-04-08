@@ -4,7 +4,7 @@ import franPhoto from "@/assets/fran-carrillo.png";
 
 const FounderSection = () => {
   return (
-    <section id="fundadora" className="py-20 md:py-28 <section id="fundadora" className="py-20 md:py-28 bg-[hsl(205,70%,18%)]">">
+    <section id="fundadora" className="py-20 md:py-28" style={{ backgroundColor: 'hsl(205, 70%, 18%)' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
